@@ -2,7 +2,7 @@ const arr = ["Ratchet & Clank 3", "Burnout 3 Takedowm", "Sly Cooper 3",
  "Dragon ball Z budokai 3", "Dofus", "Assassin's Creed Brotherhood",
   "The Witcher 3", "Borderlands 2" , "Dragon Quest XI", "Tekken 5", "God of War 2018","Spider-man 2" ]
 
-const collection = [
+export const collection = [
     // VG1
     {
         name: "Ratchet & Clank 3",
