@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&display=swap');
+
+
+body {
+        position: relative;
+        display: grid;
+        grid-template-columns: 5vw 1fr 5vw;
+        grid-template-rows: 25vw, 50vw;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    background: radial-gradient(circle, rgba(238,174,202,1), rgba(148,187,233,1));
+    background-size: cover;
+    font-size: 5vw;
+    text-align: center;
+}
+h1 {
+    grid-area: 1 / 2 / 2 / 3; 
+    text-align: center;
+    font-size: 8vw;
+    font-family: 'Lobster', cursive ;
+}
+p{
+    font-size: 3vw;
+    font-family: 'Fredoka',cursive;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 5vw;
+}
+.carte{
+   
+    grid-area: 2 / 2 / 3 / 3;
+    background-image: url(/assets/img/logo\ ps2.jpg);
+    background-size: contain;
+    padding: 10vw;
+    border-radius: 30%;
+    height: 75vw;
+        &__title { 
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        color: beige;
+        font-size:10vw;
+        opacity: 1;
+        transition: 1s;
+    }
+    &__ratchet { 
+        width: 55vw;
+        height: auto;
+        border-radius: 25%;
+        opacity: 0;
+        transition: 1.5s;
+
+        }
+        p {
+            opacity: 0;
+            transition: 1s;
+        }
+        &__title2{
+            opacity: 0;
+            transition: 1s;
+        }
+    &:hover {
+          background: beige;
+        .carte__title {
+            opacity: 0;
+        }
+        .carte__ratchet { 
+            opacity: 1;
+    
+            }
+            p {
+                opacity: 1;
+            }
+            .carte__title2{
+                opacity: 1;
+            }
+    }
+}
