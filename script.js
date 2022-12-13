@@ -64,7 +64,65 @@ const collection = [
         sortie: "2010",
         img: "/assets/img/acb.png",
         genre: ["Aventure","Action","RPG"],
-        plates_formes: ["Playstation 3",, "Xbox360","PC","Playstation 4","Xbox One", "Switch",],
-    }
+        plates_formes: ["Playstation 3", "Xbox360","PC","Playstation 4","Xbox One", "Switch",],
+    },
+     //VG7 
+     {
+        name: "The Witcher 3",
+        dev: "CD Projekt",
+        sortie: "2015",
+        img: "/assets/img/TW3.png",
+        genre: ["Aventure","Action","RPG"],
+        plates_formes: ["Playstation 5", "XboxSeries","PC","Playstation 4","Xbox One", "Switch",],
+     },
+     //VG8 
+     {
+        name: "Boderlands 2",
+        dev: "Gearbox Software",
+        sortie: "2014",
+        img: "/assets/img/BDL2.png",
+        genre: ["FPS","Action","RPG"],
+        plates_formes: ["Playstation 3", "Xbox360","PC","Playstation 4","Xbox One", "Switch",],
+
+     }, 
+
+     //VG9
+     {
+        name: "Dragon Quest XI",
+        dev: "Square Enix",
+        sortie: "2017",
+        img: "/assets/img/DQXI.png",
+        genre: ["JRPG","Aventure"],
+        plates_formes: ["3 DS","PC","Playstation 4","Xbox One", "Switch",],
+     },
+     //VG10
+     {
+        name: "Tekken 5",
+        dev: "Namco",
+        sortie: "2004",
+        img: "/assets/img/Tekken5.png",
+        genre: ["Combat","Action"],
+        plates_formes: ["Arcade","Playstation 2"],
+     }, 
+     //VG11
+     {
+        name: "God Of War",
+        dev: "Santa Monica Studio",
+        sortie: "2018",
+        img: "/assets/img/GOW.png",
+        genre: ["Aventure","Action","RPG"],
+        plates_formes: ["PC","Playstation 4"],
+     },
+     //VG12
+     {
+        name: "Spider Man 2",
+        dev: "Treyarch",
+        sortie: "2004",
+        img: "/assets/img/spider.jpg",
+        genre: ["Aventure","Action"],
+        plates_formes: ["Playstation 2", "GameCube","PC","Xbox"],
+     },
+
+
 
 ]
