@@ -1,5 +1,6 @@
-import { collection } from "./config";
+import { collection } from "./config.js";
 
+//création de la section avec toutes les cartes
 function main(){
     let collects = collection;
     let main = document.querySelector("main");
@@ -15,15 +16,20 @@ function main(){
 }
 main()
 
-
+//création d'une carte 
 function carte(collect) {
+
     let article = document.createElement("article");
 
     let picture = document.createElement("img");
     picture.setAttribute("alt", collect.name)
     picture.setAttribute("src", collect.img)
+    picture.classList.add('carte__img')
+
+    
+    
+    document.getElementById('allcarte')
     article.appendChild(picture);
     
-    return article;
 
 }
